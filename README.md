@@ -1,4 +1,4 @@
-# HCMUT Embedded Systems Labs (Year 4 — Semester 251)
+# HCMUT Embedded Systems Labs
 
 STM32F407 firmware and ESP8266 IoT sketches written for the Embedded Systems
 lab course at Ho Chi Minh City University of Technology, organized chapter by
@@ -57,12 +57,6 @@ chapter (`C1`, `C2`, `C5`, `C7`, `C8`).
 
 Each chapter's `docs/` folder holds the lecturer-provided PDF spec; those
 files are kept local-only (see `.gitignore`).
-
-## Team
-
-| Name | Student ID | Role |
-|---|---|---|
-| _TBD_ | _TBD_ | _TBD_ |
 
 ## License
 
