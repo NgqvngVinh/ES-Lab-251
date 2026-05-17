@@ -1,0 +1,48 @@
+# ─── STM32CubeIDE / Eclipse build cache ──────────────────────────────
+Debug/
+Release/
+**/Debug/
+**/Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+
+# ─── Eclipse / CubeIDE per-user / workspace metadata ────────────────
+.metadata/
+RemoteSystemsTempFiles/
+.recommenders/
+**/.settings/language.settings.xml
+
+# ─── Arduino build artifacts ─────────────────────────────────────────
+build/
+
+# ─── IDE per-user ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
+
+# ─── OS junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Secrets (Arduino / IoT credentials) ────────────────────────────
+secrets.h
+.env
+.env.*
+!.env.example
+
+# ─── Private / coursework material (local-only) ─────────────────────
+# Lecture PDFs from HCMUT, personal reports with student ID, demo videos,
+# screenshots of personal workspace. Do not commit to a public repo.
+*.pdf
+*.docx
+*.mkv
+*.mp4
+*.mov
